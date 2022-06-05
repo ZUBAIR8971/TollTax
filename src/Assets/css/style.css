@@ -1,0 +1,120 @@
+.mainDiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f2f2f2;
+    position: relative;
+    overflow: hidden;
+}
+.InnerDiv{
+    /* margin: 0 auto; */
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.InnerDiv h3{
+    font-size: 1rem;
+    color: #000;
+}
+.FlexDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.InputDiv{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.InputDiv input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1rem;
+    color: #000;
+    margin-top: 20px;
+    outline: none;
+}
+.InputDiv select{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1rem;
+    color: #000;
+    margin-top: 20px;
+    outline: none;
+}
+.InputDiv input::placeholder{
+    color: #000;
+}
+.InputDiv select::placeholder{
+    color: #000;
+}
+.ButtonDiv{
+    text-align: right;
+    margin-top: 20px;
+}
+.Button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #e6c300;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+.InputSecondDiv{
+
+}
+.InputSecondDiv h4{
+    font-size: 1rem;
+    color: #000;
+}
+.CostDiv{
+    margin-top: 30px;
+    text-align: center;
+}
+.CostDiv p{
+    font-size: .8rem;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.CostDiv h6{
+    font-size: 1rem;
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}   
+
+.mainNavDiv{
+    width: 100vw;
+    height: 50px;
+    background-color: #e6c300;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.innerNavDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navLink{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #000;
+    font-size: larger;
+}
